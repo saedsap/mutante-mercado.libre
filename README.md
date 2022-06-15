@@ -8,7 +8,7 @@ humano es mutante basándose en su secuencia de ADN._
 
 ## Comenzando 🚀
 
-_El proyecto esta basado en lenguaje JAVA 1.8, desplegando un servico REST._
+_El proyecto está basado en lenguaje JAVA 1.8, desplegando un servicio REST._
 
 ### Pre-requisitos 📋
 - _Para Ejecutar el Programa de manera Local, se necesita tener Java 1.8.0_111 o posterior, además de no tener ocupado el puerto 8080_
@@ -21,15 +21,15 @@ _- Ejecutar el .jar Resultante de la compilación el código_
 ```
 java -jar mutante-1.0-SNAPSHOT.jar
 ```
-_la base de datos esta montada en un servicio de AWS-RDS_
+_la base de datos está montada en un servicio de AWS-RDS_
 
 ![Image text](https://github.com/saedsap/mutante-mercado.libre/blob/master/mutanteSpring.PNG)
 
-_La imagen muestra la ejecución satisfacoria de la aplicacón en el puerto 8080_
+_La imagen muestra la ejecución satisfactoria de la aplicación en el puerto 8080_
 
-## Instruciones de ejeción del API-REST ⚙️
+## Instrucciones de ejecución del API-REST ⚙️
 
-_La aplicación se puede ejecutar de manera local o bien esta publicada en AWS Elastic Beanstalk, los endpoint son los siquientes:_
+_La aplicación se puede ejecutar de manera local o bien está publicada en AWS Elastic Beanstalk, los endpoint son los siguientes:_
 
 - Local 
 ```
@@ -39,7 +39,7 @@ http://localhost:8080/mercado-libre/
 ```
 http://mercadolibremutantes-env.eba-s3jmw4nw.us-east-1.elasticbeanstalk.com/mercado-libre/
 ```
-_La aplicacion expone tres servicios:_
+_La aplicación expone tres servicios:_
 
 - _POST_ **mutant**
 
@@ -56,14 +56,14 @@ Servicio con las estadísticas de las verificaciones de ADN
 ```
 - _GET_ **saludo**
 
-Servicio de prueba con un saludo a Margneto
+Servicio de prueba con un saludo a Magneto
 ```
 /saludo
 ```
 
-### Pruebas de Ejecucion 🔩
+### Pruebas de Ejecución 🔩
 #### **mutant**
-- _Ejecución de una cadena mutante, con un HTTP 200-OK, con la siguinete cadena:_
+- _Ejecución de una cadena mutante, con un HTTP 200-OK, con la siguiente cadena:_
 
 ```
 {
@@ -75,7 +75,7 @@ Status: 200 OK
 ```
 ![Image text](https://github.com/saedsap/mutante-mercado.libre/blob/master/200ok.PNG)
 
-- _Ejecución de una cadena no-mutante, con un HTTP 403-Forbidden, con la siguinete cadena:_
+- _Ejecución de una cadena no-mutante, con un HTTP 403-Forbidden, con la siguiente cadena:_
 
 ```
 {
@@ -103,7 +103,7 @@ Status: 200 OK
 ![Image text](https://github.com/saedsap/mutante-mercado.libre/blob/master/stats.PNG)
 
 #### **saludo**
-- _Ejecución del servicio para probar que nuestra apicacion esta arriba_
+- _Ejecución del servicio para probar que nuestra aplicación está arriba_
 
 ```
 Un Saludo Para Magneto!!!
@@ -113,20 +113,20 @@ La API considera las siguientes validaciones en la secuencia de ADN enviada, si 
 - Las secuencias deben tener la misma longitud
 - Las secuencias solo deben de tener (A,T,C,G)
 
-Las secuencias en minisculas la aplicación realizara el UpperCase automaticamente.
+Las secuencias en minúsculas la aplicación realizará el UpperCase automáticamente.
 
 ## Construido con 🛠️
 
 * [SpringBoot](https://spring.io/projects/spring-boot) - El framework web usado
 * [Maven](https://maven.apache.org) - Manejador de dependencias
-* [Mysql](https://rometools.github.io/rome/](https://dev.mysql.com) - Motor de Base de Datos
-* [Aws](https://maven.apache.org/](https://aws.amazon.com/es/getting-started) - Administración integral de aplicaciones web.
+* [Mysql](https://dev.mysql.com) - Motor de Base de Datos
+* [Aws](https://aws.amazon.com/es/getting-started) - Administración integral de aplicaciones web.
 * [Postman](https://www.postman.com/) - Motor de pruebas 
 * [jacoco] - JaCoCo Java Code Coverage Library
 
 ## Coverage 🖇️
 
-_Code coverage > 80%, utilizando la liberia de Java JACOCO:_
+_Code coverage > 80%, utilizando la librería de Java JACOCO:_
 
 ![Image text](https://github.com/saedsap/mutante-mercado.libre/blob/master/coverage.PNG)
 
@@ -134,6 +134,3 @@ _Code coverage > 80%, utilizando la liberia de Java JACOCO:_
 ## Autores ✒️
 
 * **Saúl Eduardo Santillán Pérez** - *Ejercicio Mercado-libre-mutantes* - [saedsap](https://github.com/saedsap)
-
-
-
