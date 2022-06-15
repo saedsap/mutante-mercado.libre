@@ -115,6 +115,12 @@ La API considera las siguientes validaciones en la secuencia de ADN enviada, si 
 
 Las secuencias en minúsculas la aplicación realizará el UpperCase automáticamente.
 
+## Coverage 📊
+
+_Code coverage > 80%, utilizando la librería de Java JACOCO:_
+
+![Image text](https://github.com/saedsap/mutante-mercado.libre/blob/master/coverage.PNG)
+
 ## Construido con 🛠️
 
 * [SpringBoot](https://spring.io/projects/spring-boot) - El framework web usado
@@ -122,13 +128,8 @@ Las secuencias en minúsculas la aplicación realizará el UpperCase automática
 * [Mysql](https://dev.mysql.com) - Motor de Base de Datos
 * [Aws](https://aws.amazon.com/es/getting-started) - Administración integral de aplicaciones web.
 * [Postman](https://www.postman.com/) - Motor de pruebas 
-* [jacoco] - JaCoCo Java Code Coverage Library
+* Jacoco - JaCoCo Java Code Coverage Library
 
-## Coverage 🖇️
-
-_Code coverage > 80%, utilizando la librería de Java JACOCO:_
-
-![Image text](https://github.com/saedsap/mutante-mercado.libre/blob/master/coverage.PNG)
 
 
 ## Autores ✒️
