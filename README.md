@@ -119,8 +119,9 @@ Las secuencias en minisculas la aplicación realizara el UpperCase automaticamen
 
 * [SpringBoot](https://spring.io/projects/spring-boot) - El framework web usado
 * [Maven](https://maven.apache.org) - Manejador de dependencias
-* [MYSQL](https://rometools.github.io/rome/](https://dev.mysql.com) - Motor de Base de Datos
-* [AWS](https://maven.apache.org/](https://aws.amazon.com/es/getting-started) - Administración integral de aplicaciones web.
+* [Mysql](https://rometools.github.io/rome/](https://dev.mysql.com) - Motor de Base de Datos
+* [Aws](https://maven.apache.org/](https://aws.amazon.com/es/getting-started) - Administración integral de aplicaciones web.
+* [Postman](https://www.postman.com/) - Motor de pruebas 
 * [jacoco] - JaCoCo Java Code Coverage Library
 
 ## Coverage 🖇️
