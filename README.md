@@ -16,7 +16,7 @@ _El proyecto está basado en lenguaje JAVA 1.8, desplegando un servicio REST._
 ### Deployment 🔧
 _El proyecto **Mutante** se puede ejecutar de Manera Local, de la siguiente manera :_
 
-_- Ejecutar el .jar Resultante de la compilación el código_
+_- Ejecutar el .jar Resultante de la compilación de el código_
 
 ```
 java -jar mutante-1.0-SNAPSHOT.jar
