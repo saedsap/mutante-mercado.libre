@@ -23,7 +23,7 @@ java -jar mutante-1.0-SNAPSHOT.jar
 ```
 _la base de datos esta montada en un servicio de AWS-RDS_
 
-![Image text](https://github.com/saedsap/Mercado-Libre-Mutante/blob/main/mutanteSpring.PNG)
+![Image text](https://github.com/saedsap/mutante-mercado.libre/blob/master/mutanteSpring.PNG)
 
 _La imagen muestra la ejecución satisfacoria de la aplicacón en el puerto 8080_
 
@@ -73,6 +73,7 @@ Servicio de prueba con un saludo a Margneto
 ```
 Status: 200 OK
 ```
+![Image text](https://github.com/saedsap/mutante-mercado.libre/blob/master/200ok.PNG)
 
 - _Ejecución de una cadena no-mutante, con un HTTP 403-Forbidden, con la siguinete cadena:_
 
@@ -84,6 +85,8 @@ Status: 200 OK
 ```
 Status: 403 Forbidden
 ```
+![Image text](https://github.com/saedsap/mutante-mercado.libre/blob/master/403.PNG)
+
 #### **stats**
 - _Ejecución del servicio para obtener la estadística de las verificaciones de ADN, con un HTTP 200-OK, obteniendo el objeto en formato JSON:_
 
@@ -97,6 +100,8 @@ Status: 403 Forbidden
 ```
 Status: 200 OK
 ```
+![Image text](https://github.com/saedsap/mutante-mercado.libre/blob/master/stats.PNG)
+
 #### **saludo**
 - _Ejecución del servicio para probar que nuestra apicacion esta arriba_
 
